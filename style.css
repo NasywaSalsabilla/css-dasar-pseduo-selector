@@ -1,0 +1,59 @@
+
+*/ jika link belum dikunjungi */
+ a:link{
+ color: red;
+ }
+ /* jika link sudah pernah dikunjungi */
+ a:visited{
+ color:green;
+ }
+ /* saat kursor berada di atas link */
+a:hover{
+ color: lightblue;
+}
+/* saat link sedang di klik */
+a:active{
+    color:blue
+}* saat kursor berada di atas link class home */
+a.home:hover{
+    font-size:30px;
+    background-color:yellow;
+}
+div{
+    background-color:yellow;
+    padding:20px;
+}
+div:hover{
+    background-color:green;
+    padding:20px;
+}
+p{
+    display:none;
+    background-color:yellow;
+    padding:20px;
+}
+/* saat kursor berada di atas div */
+div:hover p{
+    display:block;
+}
+p:first-child{
+    background-color:yellow
+}
+selector:pseudo-element {
+    property: value;
+}
+p::first-line{
+    font-style:bold;
+    font-size:30px;
+    background-color:yellow;
+}
+: :marker{
+    color:red;
+}
+: :selection{
+    color:red;
+    background-color:yellow;
+}
+a[target] {
+    background-color:yellow;
+}
